@@ -27,8 +27,7 @@ echo
 echo "Replacing Docker repository..."
 echo
 echo
-apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
-apt install docker.io
+apt-get purge -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+apt install -y docker.io
 echo
 echo "DONE!"
-
