@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo
-echo
 echo "Updating OS..."
 echo
 echo
