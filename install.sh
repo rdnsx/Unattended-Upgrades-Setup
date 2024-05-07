@@ -30,4 +30,5 @@ echo
 apt-get purge -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
 apt install -y docker.io
 echo
+echo
 echo "DONE!"
