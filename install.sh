@@ -1,23 +1,9 @@
 #!/bin/bash
 
-
-#Update & clean up OS
-
 echo
 echo "###############################"
 echo "RDNSX-Unattended-Upgrades Setup"
 echo "###############################"
-echo
-echo
-echo "Updating OS..."
-echo
-echo
-{
-apt update && apt upgrade -y && apt autoremove -y
-} &> /dev/null
-
-#Install and placing unattended-upgrades config files
-
 echo
 echo
 echo "Installing Unattended-Upgrades..."
